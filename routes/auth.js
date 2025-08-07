@@ -34,7 +34,7 @@ router.post('/register', async (req, res) => {
 });
 
 // GET Login
-router.get('/login', (req, res) => {
+router.get('/', (req, res) => {
   res.render('login');
 });
 
